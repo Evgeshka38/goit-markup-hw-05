@@ -671,9 +671,7 @@ p {
   margin-bottom: 24px;
 }
 .label-checkbox {
-  display: flex;
   align-items: center;
-  gap: 8px;
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.04em;
@@ -683,6 +681,7 @@ p {
 }
 
 .checkbox-wrapper {
+  margin-right: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
