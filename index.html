@@ -481,16 +481,18 @@
         </div>
         <div class="footer-form-wrapper">
           <p class="footer-social-title">Subscribe</p>
-          <form class="footer-form" name="footerForm">
+          <form class="footer-form" name="footer-form">
+            <label class="footer-form-label" for="email-subscribe"></label>
             <input
               type="email"
               placeholder="E-mail"
               class="footer-form-input"
-              name="emailSubscribe"
+              name="email-subscribe"
+              id="email-subscribe"
             />
             <button class="footer-form-button" type="submit">
               <span class="footer-button-title">Subscribe</span>
-              <svg class="footer-button-icon" width="24" height="20">
+              <svg class="footer-button-icon" width="24" height="24">
                 <use href="./images/icons.svg#send"></use>
               </svg>
             </button>
@@ -506,15 +508,15 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form class="modal-form" name="modalForm">
+        <form class="modal-form" name="modal-form">
           <div class="modal-form-wrapper">
-            <label class="modal-form-label" for="name">Name</label>
+            <label class="modal-form-label" for="user-name">Name</label>
             <div class="modal-input-wrapper">
               <input
                 class="modal-form-input"
                 type="text"
-                name="name"
-                id="name"
+                name="user-name"
+                id="user-name"
               />
               <svg class="model-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#person"></use>
@@ -550,25 +552,26 @@
             </div>
           </div>
           <div class="modal-textarea-wrapper">
-            <label class="modal-form-label" for="coment">Comment</label>
+            <label class="modal-form-label" for="user-comment">Comment</label>
 
             <textarea
               class="modal-textarea"
-              name="coment"
-              id="coment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
           <div class="policy-wrapper">
             <input
-              class="checkbox-input sr-only"
+              class="checkbox-input sr-only visually-hidden"
               type="checkbox"
-              name="checkbox"
-              id="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
-            <label class="label-checkbox" for="checkbox">
+            <label class="label-checkbox" for="user-privacy">
               <span class="checkbox-wrapper">
-                <svg class="checkbox-wrapper-icon" width="8" height="8">
+                <svg class="checkbox-wrapper-icon" width="10" height="8">
                   <use href="./images/icons.svg#check"></use>
                 </svg> </span
               >I accept the terms and conditions of the
